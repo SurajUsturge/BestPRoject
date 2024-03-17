@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="smoke(failed)">
+    <classes>
+      <class name="testcases.Login_test">
+        <methods>
+          <include name="launchapp"/>
+          <include name="login_test_with_valid_data"/>
+          <include name="login_test_with_INvalid_data"/>
+        </methods>
+      </class> <!-- testcases.Login_test -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->

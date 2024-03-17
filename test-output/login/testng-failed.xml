@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [login]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testcases.Login_test_2">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="blogin_test_with_INvalid_data"/>
+        </methods>
+      </class> <!-- testcases.Login_test_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [login] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [home]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testcases.Login_test_1">
+        <methods>
+          <include name="blogin_test_with_INvalid_data"/>
+          <include name="cLOGIN_WITH_EMPTY_USERNAME_AND_VALID_PASSWORD"/>
+          <include name="launchapp"/>
+          <include name="dLOGIN_WITH_VALID_USERNAME_AND_EMPTY_PASSWORD"/>
+        </methods>
+      </class> <!-- testcases.Login_test_1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [home] -->

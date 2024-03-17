@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [regression]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="sanity(failed)">
+    <classes>
+      <class name="testcases.Logout">
+        <methods>
+          <include name="beforetest"/>
+          <include name="login_test_with_valid_data"/>
+        </methods>
+      </class> <!-- testcases.Logout -->
+    </classes>
+  </test> <!-- sanity(failed) -->
+</suite> <!-- Failed suite [regression] -->
