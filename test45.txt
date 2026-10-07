@@ -1,1 +1,1 @@
-push - ABC branch has no latest pull frsadfasdfasdf
+push - ABC branch has no latest pull I have no latest pull of master. but comit to local branch. then pull of master.
